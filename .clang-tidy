@@ -1,0 +1,16 @@
+---
+Checks: '-*,clang-diagnostic-*,llvm-*,-llvm-include-order,-llvm-header-guard,misc-*,readability-*,-readability-isolate-declaration'
+# WarningsAsErrors: '*'
+CheckOptions:
+  - key: readability-braces-around-statements.ShortStatementLines
+    value: 4
+  - key: readability-identifier-naming.EnumCase
+    value: CamelCase
+  - key: readability-identifier-naming.FunctionCase
+    value: Camel_Snake_Case
+  - key: readability-identifier-naming.ParameterCase
+    value: camelBack
+  - key: readability-identifier-naming.VariableCase
+    value: camel_Snake_Back
+...
+

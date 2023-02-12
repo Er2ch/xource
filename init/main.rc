@@ -1,0 +1,18 @@
+#include <winver.h>
+#define VER_ANSICP
+
+#define IDI_ICON1               101
+
+#define VER_FILEVERSION         1,00
+#define VER_FILEVERSION_STR     "1.00"
+#define VER_PRODUCTVERSION      1,00
+#define VER_PRODUCTVERSION_STR  "1.00"
+#define VER_COMPANYNAME_STR     "Xource"
+#define VER_LEGALCOPYRIGHT_STR  "Xource"
+#define VER_PRODUCTNAME_STR     "Xource"
+#define VER_FILEDESCRIPTION_STR "Xource"
+
+#include <common.ver>
+
+//IDI_ICON1 ICON DISCARDABLE "icon.ico"
+
